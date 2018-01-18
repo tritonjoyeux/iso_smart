@@ -4,6 +4,9 @@
     background-color: white;
     @include transition-all;
     @include heading-font;
+    .logo {
+        width: 100px;
+    }
     .navbar-brand {
         color: $theme-primary;
         @include heading-font;
