@@ -150,6 +150,9 @@ header.masthead {
         max-width: 325px; } }
 
 section.download {
+  background: url("../img/bg-pattern.png"), #ff0000;
+  background: url("../img/bg-pattern.png"), -webkit-linear-gradient(to left, #ff0000, #0000ff);
+  background: url("../img/bg-pattern.png"), linear-gradient(to left, #ff0000, #0000ff);
   position: relative;
   padding: 150px 0; }
   section.download h2 {
