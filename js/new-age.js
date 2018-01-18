@@ -26,6 +26,8 @@
     offset: 54
   });
 
+  var windowsize = $(window).width();
+
   // Collapse Navbar
   var navbarCollapse = function() {
     if ($("#mainNav").offset().top > 100) {
@@ -33,7 +35,11 @@
       $(".logo").attr("src", "./img/logo_dark.png");
     } else {
       $("#mainNav").removeClass("navbar-shrink");
-      $(".logo").attr("src", "./img/logo.png");
+      if(windowsize > 992) {
+        $(".logo").attr("src", "./img/logo.png");
+      }else {
+        $(".logo").attr("src", "./img/logo_dark.png");
+      }
     }
   };
   // Collapse now if page is not at top
