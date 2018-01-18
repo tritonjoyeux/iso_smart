@@ -120,9 +120,9 @@ header.masthead {
   padding-top: 150px;
   padding-bottom: 100px;
   color: white;
-  background: url("../img/bg-pattern.png"), #ff0000;
-  background: url("../img/bg-pattern.png"), -webkit-linear-gradient(to left, #ff0000, #0000ff);
-  background: url("../img/bg-pattern.png"), linear-gradient(to left, #ff0000, #0000ff); }
+  background: #ff0000;
+  background: -webkit-linear-gradient(to left, #ff0000, #0000ff);
+  background: linear-gradient(to left, #ff0000, #0000ff); }
   header.masthead .header-content {
     max-width: 500px;
     margin-bottom: 100px;
